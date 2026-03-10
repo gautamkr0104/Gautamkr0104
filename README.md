@@ -14,7 +14,7 @@
 
 - 👨‍💻 All of my projects are available **here at github**
 
-- 📫 How to reach me **gk772269@gmail.com**
+- 📫 How to reach me **0104.gautam@gmail.com**
 
 - ⚡ Fun fact **I think age is not a barrier.**
 
