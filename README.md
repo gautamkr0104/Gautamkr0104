@@ -28,4 +28,4 @@
 
 <p><img align="left" width ="645"src="https://github-readme-stats.vercel.app/api/top-langs?username=gautamkr0104&show_icons=true&locale=en&layout=compact" alt="gautamkumar555" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Gautamkr0104&show_icons=true&locale=en" alt="gautamkumar555" /></p>
+<p>&nbsp;<img align="center" width = "645" src="https://github-readme-stats.vercel.app/api?username=Gautamkr0104&show_icons=true&locale=en" alt="gautamkumar555" /></p>
