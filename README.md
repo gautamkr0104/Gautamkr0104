@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Gautam Kumar</h1>
 <h2 align="center">A learner and wanderer of tech..</h2>
 <img align="right" alt="coding" width="400" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAxoRelR4aYS_daAA0ku9hxWWm00NpI2zl7M4BiTTG0g&s=10">
-<img align="right" alt="coding" width="400" src="https://github.com/Gautamkr0104/Gautamkumar555/blob/main/GautamKumar%20-%20Python.png">
+<img align="right" alt="coding" width="645" src="https://github.com/Gautamkr0104/Gautamkumar555/blob/main/GautamKumar%20-%20Python.png">
 
 
 
