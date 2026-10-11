@@ -6,7 +6,7 @@
 
 
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=gautamkr0104&label=Profile%20views&color=0e75b6&style=flat" alt="gautamkumar555" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=gautamkr0104&label=Profile%20views&color=0e75b6&style=flat" alt="" /> </p>
 
 
 - 🌱 I’m currently learning **CPP For ESP32**
