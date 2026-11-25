@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 42" width="196" height="42" role="img" aria-label="EMAIL: 0104.gautam@gmail.com">
+  <defs>
+    <linearGradient id="pgL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#eef1f5" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="195" height="41" rx="9" fill="url(#pgL)" stroke="#d0d7de"/>
+  <line x1="10" y1="1.2" x2="186" y2="1.2" stroke="#ffffff" stroke-width="0.9"/>
+  <circle cx="14" cy="14" r="2.5" fill="#1a7f37"/>
+  <text x="23" y="16.5" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.5" letter-spacing="1.1">EMAIL</text>
+  <text x="14" y="31.5" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.9">0104.gautam@gmail.com</text>
+</svg>
