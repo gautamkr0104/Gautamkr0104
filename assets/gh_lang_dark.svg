@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 218" width="420" height="218" role="img" aria-label="Audited Languages">
+  <defs>
+    <linearGradient id="amb" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0b0d11"/><stop offset="60%" stop-color="#11151b"/><stop offset="100%" stop-color="#0d1015"/></linearGradient>
+    <radialGradient id="topL" cx="25%" cy="8%" r="65%"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/><stop offset="100%" stop-color="#000000" stop-opacity="0"/></radialGradient>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.068"/><stop offset="50%" stop-color="#d1d5db" stop-opacity="0.024"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0.042"/></linearGradient>
+    <linearGradient id="inset" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#07090c" stop-opacity="0.56"/><stop offset="100%" stop-color="#14181f" stop-opacity="0.42"/></linearGradient>
+    <linearGradient id="bevel" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.26"/><stop offset="40%" stop-color="#d1d5db" stop-opacity="0.09"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0.16"/></linearGradient>
+    <linearGradient id="cellB" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0.07"/></linearGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#6e7681" stop-opacity="0.55"/><stop offset="55%" stop-color="#d0d7de" stop-opacity="0.9"/><stop offset="100%" stop-color="#3fb950" stop-opacity="1"/></linearGradient>
+    <filter id="fg"><feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="2" seed="15" result="n"/><feColorMatrix type="saturate" values="0" in="n" result="m"/><feComponentTransfer in="m" result="g"><feFuncA type="linear" slope="0.025"/></feComponentTransfer><feBlend mode="screen" in="SourceGraphic" in2="g"/></filter>
+    <pattern id="mg" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.6" fill="#ffffff" fill-opacity="0.055"/></pattern>
+    <clipPath id="clip"><rect x="0" y="0" width="420" height="218" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="420" height="218" fill="url(#amb)"/>
+    <rect width="420" height="218" fill="url(#mg)"/>
+    <rect width="420" height="218" fill="url(#topL)"/>
+    <rect x="4" y="4" width="412" height="210" rx="12" fill="url(#glass)" filter="url(#fg)"/>
+    <line x1="16" y1="4.7" x2="404" y2="4.7" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1"/>
+    <rect x="4.5" y="4.5" width="411" height="209" rx="11.5" fill="none" stroke="url(#bevel)" stroke-width="1"/>
+    <g transform="translate(18, 18)">
+      <rect width="384" height="182" rx="10" fill="url(#inset)" stroke="url(#cellB)" stroke-width="1"/>
+      <text x="16" y="24" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.1">05 · LANGUAGES</text>
+      <text x="368" y="24" text-anchor="end" fill="#6e7681" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5">15 REPOS // AUDITED</text>
+
+      <rect x="16" y="36" width="196" height="6" rx="3" fill="#3fb950"/>
+      <rect x="214" y="36" width="48" height="6" rx="2" fill="#e6edf3"/>
+      <rect x="264" y="36" width="46" height="6" rx="2" fill="#8b949e"/>
+      <rect x="312" y="36" width="34" height="6" rx="2" fill="#57606a"/>
+      <rect x="348" y="36" width="20" height="6" rx="2" fill="#30363d"/>
+
+      <circle cx="21" cy="65" r="3.5" fill="#3fb950"/>
+      <text x="33" y="69" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" font-weight="600">Python</text>
+      <text x="158" y="69" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">Edge-AI, AST, CV</text>
+      <text x="368" y="69" text-anchor="end" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5">55.7%</text>
+
+      <circle cx="21" cy="91" r="3.5" fill="#e6edf3"/>
+      <text x="33" y="95" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" font-weight="600">TypeScript</text>
+      <text x="158" y="95" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">Next.js, Fastify</text>
+      <text x="368" y="95" text-anchor="end" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5">13.5%</text>
+
+      <circle cx="21" cy="117" r="3.5" fill="#8b949e"/>
+      <text x="33" y="121" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" font-weight="600">JS / HTML / CSS</text>
+      <text x="158" y="121" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">WASM &amp; Web UI</text>
+      <text x="368" y="121" text-anchor="end" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5">13.2%</text>
+
+      <circle cx="21" cy="143" r="3.5" fill="#57606a"/>
+      <text x="33" y="147" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" font-weight="600">Java / Kotlin</text>
+      <text x="158" y="147" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">LSPosed, Compose</text>
+      <text x="368" y="147" text-anchor="end" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5">9.5%</text>
+
+      <circle cx="21" cy="169" r="3.5" fill="#30363d" stroke="#8b949e" stroke-width="0.9"/>
+      <text x="33" y="173" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" font-weight="600">C / C++11</text>
+      <text x="158" y="173" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">ESP-IDF, BLE</text>
+      <text x="368" y="173" text-anchor="end" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5">7.2%</text>
+    </g>
+  </g>
+</svg>

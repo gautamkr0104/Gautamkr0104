@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 212" width="420" height="212" role="img" aria-label="Systems Telemetry">
+  <defs>
+    <linearGradient id="amb" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0b0d11"/><stop offset="60%" stop-color="#11151b"/><stop offset="100%" stop-color="#0d1015"/></linearGradient>
+    <radialGradient id="topL" cx="25%" cy="8%" r="65%"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/><stop offset="100%" stop-color="#000000" stop-opacity="0"/></radialGradient>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.068"/><stop offset="50%" stop-color="#d1d5db" stop-opacity="0.024"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0.042"/></linearGradient>
+    <linearGradient id="inset" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#07090c" stop-opacity="0.56"/><stop offset="100%" stop-color="#14181f" stop-opacity="0.42"/></linearGradient>
+    <linearGradient id="bevel" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.26"/><stop offset="40%" stop-color="#d1d5db" stop-opacity="0.09"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0.16"/></linearGradient>
+    <linearGradient id="cellB" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0.07"/></linearGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#6e7681" stop-opacity="0.55"/><stop offset="55%" stop-color="#d0d7de" stop-opacity="0.9"/><stop offset="100%" stop-color="#3fb950" stop-opacity="1"/></linearGradient>
+    <filter id="fg"><feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="2" seed="5" result="n"/><feColorMatrix type="saturate" values="0" in="n" result="m"/><feComponentTransfer in="m" result="g"><feFuncA type="linear" slope="0.025"/></feComponentTransfer><feBlend mode="screen" in="SourceGraphic" in2="g"/></filter>
+    <pattern id="mg" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.6" fill="#ffffff" fill-opacity="0.055"/></pattern>
+    <clipPath id="clip"><rect x="0" y="0" width="420" height="212" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="420" height="212" fill="url(#amb)"/>
+    <rect width="420" height="212" fill="url(#mg)"/>
+    <rect width="420" height="212" fill="url(#topL)"/>
+    <rect x="4" y="4" width="412" height="204" rx="12" fill="url(#glass)" filter="url(#fg)"/>
+    <line x1="16" y1="4.7" x2="404" y2="4.7" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1"/>
+    <rect x="4.5" y="4.5" width="411" height="203" rx="11.5" fill="none" stroke="url(#bevel)" stroke-width="1"/>
+    <g transform="translate(18, 18)">
+      <rect width="384" height="176" rx="10" fill="url(#inset)" stroke="url(#cellB)" stroke-width="1"/>
+      <text x="16" y="25" fill="#6e7681" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.1">SIGNAL TRACE</text>
+      <text x="368" y="25" text-anchor="end" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="600">DETERMINISTIC</text>
+
+      <line x1="16" y1="53" x2="368" y2="53" stroke="#ffffff" stroke-opacity="0.08" stroke-dasharray="3 3" stroke-width="1"/>
+      <path d="M 16 58 C 58 58, 70 38, 104 43 C 138 48, 156 64, 194 52 C 232 40, 254 32, 288 43 C 322 54, 344 37, 368 35" fill="none" stroke="url(#wave)" stroke-width="2.2" stroke-linecap="round"/>
+      <circle cx="368" cy="35" r="3.4" fill="#3fb950"/>
+
+      <line x1="16" y1="76" x2="368" y2="76" stroke="#ffffff" stroke-opacity="0.075" stroke-width="1"/>
+
+      <text x="16" y="100" fill="#6e7681" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5">TARGETS</text>
+      <text x="98" y="100" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">ESP32 · Linux · Android</text>
+
+      <text x="16" y="124" fill="#6e7681" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5">STACK</text>
+      <text x="98" y="124" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">C · C++ · Python · Java · TS</text>
+
+      <text x="16" y="148" fill="#6e7681" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5">MAIL</text>
+      <text x="98" y="148" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">0104.gautam@gmail.com</text>
+    </g>
+  </g>
+</svg>
